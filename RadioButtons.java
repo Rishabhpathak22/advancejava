@@ -14,7 +14,7 @@ class RadioButtons extends JFrame implements ActionListener{
         L.setBounds(400,150,100,30);
         ButtonGroup Q=new ButtonGroup();
         Q.add(S);Q.add(T); Q.add(L);
-        Component Component = add(S); //add/
+        Component Component = add(S); 
                 add(T);add(L);
         setSize(350,300);
         setLayout(null);
