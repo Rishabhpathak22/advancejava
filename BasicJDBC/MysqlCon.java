@@ -5,7 +5,7 @@ try{
 Class.forName("com.mysql.jdbc.Driver");  
 Connection con=DriverManager.getConnection(  
 "jdbc:mysql://localhost:3306/mylab1","root","Rishabh@12R");  
-//here sonoo is database name, root is username and password  
+//here mylab1 is database name, root is username  
 Statement stmt=con.createStatement();  
 ResultSet rs=stmt.executeQuery("select * from emp");  
 while(rs.next())  
